@@ -1,0 +1,163 @@
+.btn-primary-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success-custom {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-success-custom:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.btn-danger-custom {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger-custom:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.btn-warning-custom {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-warning-custom:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer-content .logo {
+    font-size: 1.5rem;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container, .register-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.imagen1{
+    height: 8%;
+    width: 8%;
+    border-radius: 50%;
+    margin-right: 380px;
+    margin-left: 15px;
+}
+#sobre-nosotros img{
+    border-radius: 20%;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px #201f1f  ;
+}
+#sobre-nosotros h2{
+    text-decoration: underline;
+}
+#servicios h2{
+    text-decoration: underline;
+}
+#servicio h2{
+    text-decoration: underline;
+}
+#turnos h2{
+    text-decoration: underline;
+}
+#consulta h2{
+    text-decoration: underline;
+}
+#empleados h2{
+    text-decoration: underline;
+}
